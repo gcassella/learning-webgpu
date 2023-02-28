@@ -9,6 +9,7 @@ edition = "2021"
 crate-type = ["cdylib", "rlib"]
 
 [dependencies]
+anyhow = "1.0.69"
 cfg-if = "1"
 cgmath = "0.18.0"
 winit = "0.27"
